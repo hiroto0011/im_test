@@ -222,14 +222,25 @@ h1, h2, h3, h4, h5, h6, figure {
 	margin:0 auto;
 }
 
+@media only screen and (max-width:768px){
+	.inside_block{
+	border: 2px solid #cccccc;
+	width: 90%;
+	margin: 0 20px;
+	height:auto;
+	cursor:pointer;
+	}
+}
+
+@media only screen and (min-width:768px){
 .inside_block{
 	border: 2px solid #cccccc;
-	height: 500px;
+	height: 450px;
 	width:	30%;
 	margin: 0 10px;
 	cursor:pointer;
+	}
 }
-
 .inside_block:hover{
 	border: 2px solid #18b494;
 	-webkit-transition: 0.5s;
@@ -2144,14 +2155,17 @@ form label {
 
 .about-list-subtitle{
   font-family: sans-serif;
-  font-size: 24px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .weight-bold{
-  margin-left: 2em;
+  margin: 0 20px;
+  text-align: center;
 }
 .weight-bold-point{
-   margin-left: 1em;
+    margin: 0;
+    padding: 10px 20px 10px 40px;
 }
 .col-md-4 gtco-footer-link.li{
   margin-left: auto;
