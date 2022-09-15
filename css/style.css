@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-flex;
 }
 .gtco-nav ul li {
-  padding: 20px 0;
+  padding: 20px 10px;
   margin: 0;
   list-style: none;
   display: inline-block;
@@ -295,6 +295,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-nav ul li:hover {
 	background-color:#17b794;
+	color:white;
 }
 .gtco-nav ul li > a {
   text-transform: uppercase;
@@ -1174,13 +1175,13 @@ form label {
 #gtco-offcanvas {
   position: absolute;
   z-index: 1901;
-  width: 270px;
+  width: 200px;
   background: #1a1a1a;
   top: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  padding: 45px 40px 40px 40px;
+  padding-top: 60px;
   overflow-y: auto;
   display: none;
   -moz-transform: translateX(270px);
@@ -1215,7 +1216,7 @@ form label {
   margin: 0;
 }
 #gtco-offcanvas ul li {
-  padding: 10px 0;
+  padding: 10px 20px;
   margin: 0;
   font-size:14px;
   list-style: none;
@@ -1323,14 +1324,14 @@ form label {
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: white;
+  background: black;
   transition: all .2s ease-out;
 }
 .gtco-nav-toggle i::before, .gtco-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 2px;
-  background: white;
+  background: black;
   position: absolute;
   left: 0;
   transition: all .2s ease-out;
@@ -2212,7 +2213,7 @@ form label {
   background-repeat: repeat-x;
   /*下記のbackground-attachment: fixed;を削除*/
   /*background-attachment: fixed;*/
-  background-image: url("../images/bb.jpg")
+  background-image: url("../images/bg1.jpg")
 }
 
 #bg2{
