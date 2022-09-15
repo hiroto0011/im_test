@@ -2135,6 +2135,9 @@ form label {
   margin-bottom: 50px;
 }
 
+.style_book{
+	height:500px!important;
+}
 
 .text-white{
   color: #ffffff;
