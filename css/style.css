@@ -277,16 +277,12 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   line-height: 1.5;
   background-color:#333333;
-  border-left: 1px solid black;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .gtco-nav ul li:hover {
 	background-color:#17b794;
-}
-.gtco-nav ul li:last-child{
-	border-right: 1px solid black;
 }
 .gtco-nav ul li > a {
   text-transform: uppercase;
