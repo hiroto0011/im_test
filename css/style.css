@@ -265,6 +265,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
+.active{
+	color:white!important;
+	background-color:#17b794!important;
+}
+
 .gtco-nav ul {
   padding: 0;
   margin: 0;
@@ -412,7 +417,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .gtco-nav ul li.active > a {
-  color: #000 !important;
+  color: #ffffff !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -2240,7 +2245,7 @@ background-image: url("../images/aa.jpg")
 
 @media screen and (max-width: 768px) {
   #bg{
-    background-image:url('../images/ff_small.jpg');
+    background-image:url('../images/bg_mobile.png');
     //background-size: 100% 100%;
   }
 }
