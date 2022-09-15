@@ -208,11 +208,9 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   top: 0;
   margin: 0;
-  padding: 0;
   width: 100%;
-  padding: 10px 0;
   z-index: 1001;
-  background: #fff;
+  background-color:#333333;
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -254,6 +252,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
   .gtco-nav #gtco-logo {
   margin-left: 0px;
+  padding:10px
   }
 }
 
@@ -261,20 +260,33 @@ h1, h2, h3, h4, h5, h6, figure {
 
  .gtco-nav #gtco-logo {
   margin-left: 0px;
+  padding: 10px;
   }
 }
 
 
 .gtco-nav ul {
   padding: 0;
-  margin: .4em 0 0 0;
+  margin: 0;
+  display: inline-flex;
 }
 .gtco-nav ul li {
-  padding: 0;
+  padding: 20px 0;
   margin: 0;
   list-style: none;
-  display: inline;
+  display: inline-block;
   line-height: 1.5;
+  background-color:#333333;
+  border-left: 1px solid black;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.gtco-nav ul li:hover {
+	background-color:#17b794;
+}
+.gtco-nav ul li:last-child{
+	border-right: 1px solid black;
 }
 .gtco-nav ul li > a {
   text-transform: uppercase;
@@ -284,12 +296,15 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li a {
   font-size: 16px;
   padding: 30px 10px;
-  color: #3ac1bc;
+  color:#17b794;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
+.gtco-nav ul li a:hover{
+	color:white;
+}
+.gtco-nav ul li a:focus, .gtco-nav ul li a:active {
   color: #33a3bd;
 }
 .gtco-nav ul li.has-dropdown {
