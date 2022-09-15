@@ -1163,7 +1163,7 @@ form label {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: black;
+  background: #1a1a1a;
   top: 0;
   right: 0;
   top: 0;
@@ -1203,8 +1203,9 @@ form label {
   margin: 0;
 }
 #gtco-offcanvas ul li {
-  padding: 0;
+  padding: 10px 0;
   margin: 0;
+  font-size:14px;
   list-style: none;
 }
 #gtco-offcanvas ul li > ul {
@@ -1295,7 +1296,7 @@ form label {
   text-decoration: none;
 }
 .gtco-nav-toggle.active i::before, .gtco-nav-toggle.active i::after {
-  background: #444;
+  background: #ffffff;
 }
 .gtco-nav-toggle:hover, .gtco-nav-toggle:focus, .gtco-nav-toggle:active {
   outline: none;
@@ -1310,14 +1311,14 @@ form label {
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #252525;
+  background: white;
   transition: all .2s ease-out;
 }
 .gtco-nav-toggle i::before, .gtco-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 2px;
-  background: #252525;
+  background: white;
   position: absolute;
   left: 0;
   transition: all .2s ease-out;
@@ -1371,11 +1372,11 @@ form label {
 .gtco-nav-toggle {
   position: absolute;
   right: 0px;
-  top: 8px;
   z-index: 21;
   padding: 6px 0 0 0;
   display: block;
   margin: 0 auto;
+  padding: 15px 0;
   display: none;
   height: 44px;
   width: 44px;
