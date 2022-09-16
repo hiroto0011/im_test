@@ -222,6 +222,39 @@ h1, h2, h3, h4, h5, h6, figure {
 	margin:0 auto;
 }
 
+.btn-center{
+	text-align:center;
+	margin: 0 auto;
+}
+
+.bottom-button{
+	display:inline-flex; 
+	width: 100%;  
+	padding-bottom: 10px;
+	position: absolute;
+	right: 5px;
+    bottom: 0;
+}
+
+.card-title{
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	color:#17b794;
+}
+
+
+.card-body{
+	height: 470px;
+    position: relative;
+	display: inline-block;
+}
+
+.card-text{
+	display:block;
+	width: 200px;
+}
+
 @media only screen and (max-width:768px){
 	.inside_block{
 	border: 2px solid #cccccc;
