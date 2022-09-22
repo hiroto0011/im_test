@@ -2287,6 +2287,10 @@ form label {
 .step_about{
 	color:white;
 }
+
+.step_about:hover{
+	color:black;
+}
 .step_about2{
 	color:black;
 }
