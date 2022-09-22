@@ -243,6 +243,10 @@ h1, h2, h3, h4, h5, h6, figure {
 	color:#17b794;
 }
 
+.card-header{
+	margin: 0px;
+}
+
 .card-img-top{
 	height:400px;
 }
@@ -2245,6 +2249,67 @@ form label {
 
 .mailform{
   text-align: center;
+}
+
+.mb-3{
+	border: 2px solid #cacaca;
+	margin: 0px;
+}
+
+.vl1 {
+  border-left: 2px solid #4bb543;
+  height: 65px;
+  position:relative;
+  left:50%;
+}
+
+.vl2 {
+  border-left: 2px solid #4bb543;
+  height: 65px;
+  position:relative;
+  left:50%;
+}
+
+.vl3 {
+  border-left: 2px solid #cccccc;
+  height: 65px;
+  position:relative;
+  left:50%;
+}
+
+.vl4 {
+  border-left: 2px solid #cccccc;
+  height: 65px;
+  position:relative;
+  left:50%;
+}
+
+.step_about{
+	color:white;
+}
+.step_about2{
+	color:black;
+}
+
+a.anchor{
+	display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+.box-upper{
+	background-color: #4bb543; 
+	border-bottom:2px solid #cacaca; 
+	padding:20px;
+}
+
+.card-header{
+	color:white;
+}
+
+.box-lower{
+	padding:20px;
 }
 
 .contact-box {
