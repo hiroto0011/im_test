@@ -344,7 +344,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	width: 90%;
 	margin: 0 20px;
 	height:auto;
-	cursor:pointer;
 	}
 }
 
@@ -354,7 +353,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	height: 450px;
 	width:	30%;
 	margin: 0 10px;
-	cursor:pointer;
 	}
 }
 .inside_block:hover{
